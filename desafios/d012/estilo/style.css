@@ -13,18 +13,39 @@
 header {
     font-family: 'Passion One', 'cursive';
     font-weight: normal;
-    text-decoration: none;
     text-align: center;
+    letter-spacing: 1.2px;
     background-color: black;
     color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 header > h1 {
     font-size: 3em;
 }
 
-main p {
+header  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
     font-family: 'Sriracha', 'cursive';
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+section#principal {
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section#principal > p {
+    color: white;
+    background-color: rgba(0, 128, 0, 0.151)
+    ;
 }
